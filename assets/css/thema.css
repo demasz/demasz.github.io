@@ -1,0 +1,9 @@
+*{
+    background: #484848;
+}
+h1{
+    color: darkred;
+}
+h1:hover{
+    color: firebrick;
+}
