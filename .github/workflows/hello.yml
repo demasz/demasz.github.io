@@ -14,3 +14,10 @@ jobs:
         run: echo "Olá mundo cruel"
       - name: Resposta
         run: echo "A extinção está chegando"
+  adeus:
+    runs-on: ubuntu-latest
+    steps:
+    - name: "O fim"
+      run: echo "Após uma tempestade solar, a humanidade virou churras"
+    - name: "Nova era"
+      run: echo "Uma nova raça animal domina o planeta"
