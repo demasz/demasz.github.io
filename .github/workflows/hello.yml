@@ -1,0 +1,16 @@
+name: Olá mundo cruel #nome da action
+
+#gatilho, qnd a action vai rodar
+on:
+  push:
+    branches: ['main']
+
+#cria as tarefas que devem ser executadas
+jobs: 
+  saudacao: #nome da tarefa
+    runs-on: ubuntu-latest #onde tem que rodar
+    steps:
+      - name: Primeiro contato
+        run: echo "Olá mundo cruel"
+      - name: Resposta
+        run: echo "A extinção está chegando"
