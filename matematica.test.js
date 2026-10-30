@@ -1,4 +1,4 @@
-const { somar, subtrair, multiplicar, dividir } = require("./matematica");
+const { somar, subtrair, multiplicar, dividir, potencia } = require("./matematica");
 
 describe("operações matemáticas", () => {
   test("soma dois números", () => {
